@@ -12,29 +12,29 @@
     <h1>What D&D class are you?</h1>
     <p>With this quiz, you'll be able to find out what D&D class best fits you.</p>
 
-    <h2>Question 1: Where do you think magic comes from?</h2>
     <form id="quiz">
+      <h2>Question 1: Where do you think magic comes from?</h2>
       <div class="radio">
         <label>
-          <input type="radio" name="magic" value="sorcerer">
+          <input type="radio" name="magic" value=1>
           You're born with magic.
         </label>
       </div>
       <div class="radio">
         <label>
-        <input type="radio" name="magic" value="wizard">
+        <input type="radio" name="magic" value=2>
         Years of study.
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="magic" value="cleric">
+          <input type="radio" name="magic" value=3>
           The god that I fallow grants me magic. 
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="magic" value="druid">
+          <input type="radio" name="magic" value=4>
           Nature give me my magical abilities.
         </label>
       </div>
@@ -42,25 +42,25 @@
       <h2>Question 2: What do you do in your free time?</h2>
       <div class="radio">
         <label>
-          <input type="radio" name="hobby" value="druid">
+          <input type="radio" name="hobby" value=4>
           Taking a walk in nature.
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="hobby" value="cleric">
+          <input type="radio" name="hobby" value=3>
           Helping those in need.
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="hobby" value="wizard">
+          <input type="radio" name="hobby" value=2>
           Reading a book.
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="hobby" value="sorcerer">
+          <input type="radio" name="hobby" value=1>
           Showing off to those around me.
         </label>
       </div>
@@ -68,45 +68,47 @@
       <h2>Question 3: What is your dream profession?</h2>
       <div class="radio">
         <label>
-          <input type="radio" name="job" value="cleric">
+          <input type="radio" name="job" value=3>
           Doctor.
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="job" value="wizard">
+          <input type="radio" name="job" value=2>
           Librarian.
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="job" value="druid">
+          <input type="radio" name="job" value=4>
           Farmer.
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="job" value="sorcerer">
+          <input type="radio" name="job" value=1>
           Magician.
         </label>
       </div>
       <button type="submit" class="btn">Submit</button>
     </form>
     
-    <div id="wizard">
-      <p>You are a wizard! You studied magic for years to get where you are today. You can blast foes with fire, zap enemies with lightning, and much much more!</p>
-    </div>
+    <div id="answer-group">
+      <div id="wizard">
+        <p>You are a wizard! You studied magic for years to get where you are today. You can blast foes with fire, zap enemies with lightning, and much much more!</p>
+      </div>
 
-    <div id="druid">
-      <p>You are a druid! You are connected to nature, manipulating it how ever you wish. You can turn into animals and communicate with them, or talk to the plants around you. You protect mother nature when no one else will!</p>
-    </div>
+      <div id="druid">
+        <p>You are a druid! You are connected to nature, manipulating it how ever you wish. You can turn into animals and communicate with them, or talk to the plants around you. You protect mother nature when no one else will!</p>
+      </div>
 
-    <div id="cleric">
-      <p>You are a cleric! Your devotion to your god of choice gives you magical abilities that can heal you and your friends, make your sword catch fire, or smite those who harm you and your allies.</p>
-    </div>
+      <div id="cleric">
+        <p>You are a cleric! Your devotion to your god of choice gives you magical abilities that can heal you and your friends, make your sword catch fire, or smite those who harm you and your allies.</p>
+      </div>
 
-    <div id="sorcerer">
-      <p>You are a sorcerer! You were born with magic and can use it with little to no training. You're powerful skills will help you out in any situation!</p>
+      <div id="sorcerer">
+        <p>You are a sorcerer! You were born with magic and can use it with little to no training. You're powerful skills will help you out in any situation!</p>
+      </div>
     </div>
   </div>
 </body>
