@@ -17,8 +17,6 @@ $(document).ready(function () {
       $("#druid").show().sibling().hide();
     }
 
-    console.log("answer total: ", answerTotal);
-    console.log("magic answer: ", magicAnswer);
     event.preventDefault();
   });
 });
