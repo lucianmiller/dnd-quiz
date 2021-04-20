@@ -1,25 +1,36 @@
-#wizard, #druid, #cleric, #sorcerer, #error{
+#wizard, #druid, #cleric, #sorcerer, #error {
   display: none;
 }
 
-#wizard p{
+#wizard p {
   margin: 12px;
   border: 2px solid #03448a;
   padding: 4px;
   background-color: #a3e9f0;
 }
 
-#wizard img{
+#wizard img {
   float: left;
 }
 
-#druid p{
+#druid p {
   margin: 12px;
   border: 2px solid #d3f054;
   padding: 4px;
   background-color: #c9e8b0;
 }
 
-#druid img {
+#druid img{
+  float: left;
+}
+
+#cleric p {
+  margin: 12px;
+  border: 2px solid #a439b3;
+  padding: 4px;
+  background-color: #548791
+}
+
+#cleric img {
   float: left;
 }
