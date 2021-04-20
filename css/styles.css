@@ -34,3 +34,14 @@
 #cleric img {
   float: left;
 }
+
+#sorcerer p {
+  margin: 12px;
+  border: 2px solid #d44a4a;
+  padding: 4px;
+  background-color: #e39494
+}
+
+#sorcerer img {
+  float: left;
+}
