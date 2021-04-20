@@ -19,8 +19,7 @@ $(document).ready(function () {
       $("#error").show().siblings().hide();
     }
 
-    console.log("answer total: ", answerTotal);
-    console.log("magic answer: ", magicAnswer);
+    
     event.preventDefault();
   });
 });
