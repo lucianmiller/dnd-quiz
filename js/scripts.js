@@ -14,7 +14,9 @@ $(document).ready(function () {
     } else if(answerTotal > 6 && answerTotal <= 9) {
       $("#cleric").show().siblings().hide();
     } else if(answerTotal > 9 && answerTotal <= 12) {
-      $("#druid").show().sibling().hide();
+      $("#druid").show().siblings().hide();
+    } else {
+      $("#error").show().siblings().hide();
     }
 
     console.log("answer total: ", answerTotal);
