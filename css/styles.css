@@ -12,3 +12,14 @@
 #wizard img{
   float: left;
 }
+
+#druid p{
+  margin: 12px;
+  border: 2px solid #d3f054;
+  padding: 4px;
+  background-color: #c9e8b0;
+}
+
+#druid img {
+  float: left;
+}
