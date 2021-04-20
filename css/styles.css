@@ -1,3 +1,14 @@
 #wizard, #druid, #cleric, #sorcerer, #error{
   display: none;
 }
+
+#wizard p{
+  margin: 12px;
+  border: 2px solid #03448a;
+  padding: 4px;
+  background-color: #a3e9f0;
+}
+
+#wizard img{
+  float: left;
+}
